@@ -66,8 +66,8 @@ jobs:
       - name: Type check frontend
         run: cd apps/web && npm run typecheck --if-present || true
 
-      - name: Build frontend
-        run: cd apps/web && npm run build
+      - name: Build frontend (OpenNext for Cloudflare)
+        run: cd apps/web && npx opennextjs-cloudflare build
 
       - name: Lint backend
         run: |
@@ -92,22 +92,11 @@ jobs:
         run: |
           echo "Building backend image..."
           docker build -t caribe-science-backend:latest ./apps/backend
-          
-          echo "Building frontend image..."
-          docker build -t caribe-science-frontend:latest ./apps/web
 
-      - name: Run Trivy on Docker images
+      - name: Run Trivy on backend image
         uses: aquasecurity/trivy-action@master
         with:
           image-ref: 'caribe-science-backend:latest'
-          format: 'table'
-          exit-code: '1'
-          severity: 'CRITICAL,HIGH'
-
-      - name: Run Trivy on frontend image
-        uses: aquasecurity/trivy-action@master
-        with:
-          image-ref: 'caribe-science-frontend:latest'
           format: 'table'
           exit-code: '1'
           severity: 'CRITICAL,HIGH'
