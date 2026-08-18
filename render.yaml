@@ -1,0 +1,61 @@
+# CARIBE SCIENCE — Render Blueprint
+# Deploy: https://dashboard.render.com → New → Blueprint → pega URL del repo
+services:
+  # PostgreSQL Database (free, expires 90 days, recreable)
+  - type: pserv
+    name: caribe-db
+    runtime: postgres
+    plan: free
+    region: oregon
+    envVars:
+      - key: POSTGRES_USER
+        value: caribe
+      - key: POSTGRES_PASSWORD
+        generateValue: true
+      - key: POSTGRES_DB
+        value: caribe_science
+
+  # Backend API (FastAPI + Docker)
+  - type: web
+    name: caribe-backend
+    runtime: docker
+    dockerfilePath: ./apps/backend/Dockerfile
+    plan: free
+    region: oregon
+    envVars:
+      - key: DATABASE_URL
+        fromService:
+          type: pserv
+          name: caribe-db
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: CORS_ORIGINS
+        value: "https://caribescience.com,https://www.caribescience.com"
+      - key: STORAGE_BACKEND
+        value: local
+      - key: AI_PROVIDER
+        value: ollama
+      - key: AI_BASE_URL
+        value: http://localhost:11434
+      - key: AI_MODEL
+        value: qwen3:8b
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "1440"
+      - key: EMAIL_VERIFICATION
+        value: "false"
+    healthCheckPath: /api/v1/health
+    autoDeploy: true
+
+  # Frontend (Next.js + Docker)
+  - type: web
+    name: caribe-frontend
+    runtime: docker
+    dockerfilePath: ./apps/web/Dockerfile
+    plan: free
+    region: oregon
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: "https://caribe-backend.onrender.com"
+    healthCheckPath: /
+    autoDeploy: true
