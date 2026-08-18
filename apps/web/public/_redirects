@@ -1,70 +1,12 @@
-# Redirects for Cloudflare Pages
-# https://developers.cloudflare.com/pages/platform/redirects/
+# Minimal redirects for Cloudflare Workers
+# Only essential rules, no external URLs
 
-# www -> non-www (canonical)
-https://www.caribescience.com/*  https://caribe-science.pages.dev/:splat  301
+/* / 301
 
-# Trailing slash normalization
-/*/  /:splat  301
+/home / 301
 
-# Legacy /home -> /
-/home  /  301
+/sitemap.xml /sitemap.xml 200
 
-# Legacy /index.html -> /
-/index.html  /  301
+/robots.txt /robots.txt 200
 
-# Legacy /en/* -> /* (if using i18n routing)
-/en/*  /:splat  301
-
-# API version redirects (if needed)
-/api/v0/*  /api/v1/:splat  301
-
-# Search redirects
-/search?q=:query  /search?query=:query  301
-
-# Article aliases
-/articulo/*  /articles/:splat  301
-/articulos/*  /articles/:splat  301
-/publicacion/*  /articles/:splat  301
-
-# Journal aliases
-/revista/*  /journals/:splat  301
-/revistas/*  /journals/:splat  301
-
-# Researcher aliases
-/investigador/*  /researchers/:splat  301
-/investigadores/*  /researchers/:splat  301
-
-# Dataset aliases
-/dato/*  /datasets/:splat  301
-/datos/*  /datasets/:splat  301
-
-# Protocol aliases
-/protocolo/*  /protocols/:splat  301
-/protocolos/*  /protocols/:splat  301
-
-# Submission aliases
-/enviar  /submit  301
-/submit-manuscript  /submit  301
-
-# Login/Register aliases
-/entrar  /login  301
-/registrarse  /register  301
-/registro  /register  301
-
-# Dashboard aliases
-/panel  /dashboard  301
-/mi-cuenta  /dashboard  301
-
-# Legacy PHP/ASP paths (security - redirect to home)
-/wp-admin/*  /  301
-/wp-login.php  /  301
-/phpmyadmin/*  /  301
-/admin/*  /  301
-
-# Sitemap & robots
-/sitemap.xml  /sitemap.xml  200
-/robots.txt  /robots.txt  200
-
-# Well-known
-/.well-known/*  /.well-known/:splat  200
+/.well-known/* /.well-known/:splat 200
