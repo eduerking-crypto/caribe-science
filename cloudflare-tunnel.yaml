@@ -1,0 +1,33 @@
+# Cloudflare Tunnel Config (Zero Trust)
+# 1. Create tunnel: https://dash.cloudflare.com → Zero Trust → Networks → Tunnels
+# 2. Install cloudflared on backend server (or use Docker)
+# 3. Save this as config.yaml and run: cloudflared tunnel --config config.yaml run
+
+tunnel: caribe-science
+credentials-file: /etc/cloudflared/<tunnel-id>.json
+
+ingress:
+  # API Backend (via Cloudflare Tunnel to Render internal)
+  - hostname: api.caribescience.com
+    service: http://caribe-backend.onrender.com
+    originRequest:
+      noTLSVerify: true
+      connectTimeout: 30s
+      tlsTimeout: 10s
+
+  # Frontend (Cloudflare Pages - direct, no tunnel needed)
+  - hostname: caribescience.com
+    service: https://caribe-frontend.pages.dev
+  - hostname: www.caribescience.com
+    service: https://caribe-frontend.pages.dev
+
+  # Catch-all
+  - service: http_status:404
+
+# Optional: Cloudflare Access (Zero Trust auth)
+# access:
+#   - hostname: api.caribescience.com
+#     policy:
+#       require:
+#         - email:
+#             domain: caribescience.com

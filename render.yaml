@@ -1,5 +1,7 @@
-# CARIBE SCIENCE — Render Blueprint
-# Deploy: https://dashboard.render.com → New → Blueprint → pega URL del repo
+# CARIBE SCIENCE — Render Blueprint (Backend + DB only)
+# Frontend deployado en Cloudflare Pages
+# Deploy: https://dashboard.render.com → New → Blueprint
+
 services:
   # PostgreSQL Database (free, expires 90 days, recreable)
   - type: pserv
@@ -15,7 +17,7 @@ services:
       - key: POSTGRES_DB
         value: caribe_science
 
-  # Backend API (FastAPI + Docker)
+  # Backend API (FastAPI + Docker) — NO public, only via Cloudflare Tunnel
   - type: web
     name: caribe-backend
     runtime: docker
@@ -31,7 +33,7 @@ services:
       - key: SECRET_KEY
         generateValue: true
       - key: CORS_ORIGINS
-        value: "https://caribescience.com,https://www.caribescience.com"
+        value: "https://caribescience.com,https://www.caribescience.com,https://caribe-frontend.pages.dev"
       - key: STORAGE_BACKEND
         value: local
       - key: AI_PROVIDER
@@ -45,17 +47,4 @@ services:
       - key: EMAIL_VERIFICATION
         value: "false"
     healthCheckPath: /api/v1/health
-    autoDeploy: true
-
-  # Frontend (Next.js + Docker)
-  - type: web
-    name: caribe-frontend
-    runtime: docker
-    dockerfilePath: ./apps/web/Dockerfile
-    plan: free
-    region: oregon
-    envVars:
-      - key: NEXT_PUBLIC_API_URL
-        value: "https://caribe-backend.onrender.com"
-    healthCheckPath: /
     autoDeploy: true

@@ -1,0 +1,14 @@
+# Cloudflare Pages Config (Frontend)
+# Deploy: wrangler pages deploy .next/standalone --project-name=caribe-frontend
+# Or connect repo at https://dash.cloudflare.com/pages
+
+name = "caribe-frontend"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = ".next/standalone"
+
+[build]
+command = "npm run build"
+cwd = "apps/web"
+
+# Environment variables (set in Cloudflare Pages dashboard)
+# NEXT_PUBLIC_API_URL = "https://api.caribescience.com"
