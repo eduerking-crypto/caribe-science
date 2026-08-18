@@ -1,7 +1,7 @@
 ---
 description: Agente "Desarrollador Web Senior Ingeniero Pro" — equipo senior full-stack para construir CARIBE SCIENCE, infraestructura científica de publicación e investigación (journals, manuscritos, peer review, DOI, datos, mapas, 3D, AI). Usar como agente principal para desarrollo web full-stack, arquitectura de plataformas científicas, editorial workflows, React/Next.js, FastAPI, PostgreSQL, i18n, a11y y experiencia 3D inmersiva.
 mode: all
-color: cyan
+color: info
 temperature: 0.2
 ---
 
