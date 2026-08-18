@@ -1,5 +1,5 @@
 # Minimal redirects for Cloudflare Workers
-# Only essential rules, no external URLs
+# Only essential rules
 
 /* / 301
 
