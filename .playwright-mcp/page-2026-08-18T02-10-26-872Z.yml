@@ -1,0 +1,356 @@
+- generic [active] [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - generic [ref=f8e5]:
+      - paragraph [ref=f8e6]: ISSN 2736-XXXX (Online)|Open access · Peer-reviewed
+      - navigation "Utility" [ref=f8e7]:
+        - link "Journals" [ref=f8e8] [cursor=pointer]:
+          - /url: /journals
+        - link "Articles" [ref=f8e9] [cursor=pointer]:
+          - /url: /articles
+        - link "Privacy policy" [ref=f8e10] [cursor=pointer]:
+          - /url: /privacy
+        - button "Switch to dark mode" [ref=f8e12] [cursor=pointer]
+    - generic [ref=f8e15]:
+      - link "CARIBE SCIENCE Advancing scientific knowledge from the Caribbean to the world." [ref=f8e17] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f8e18]: CARIBE SCIENCE
+        - generic [ref=f8e19]: Advancing scientific knowledge from the Caribbean to the world.
+      - search "Search for Articles:" [ref=f8e21]:
+        - textbox "Title / Keyword" [ref=f8e23]
+        - textbox "Author / Affiliation / Email" [ref=f8e24]
+        - combobox "All journals" [ref=f8e25] [cursor=pointer]:
+          - option "All journals" [selected]
+        - combobox "All article types" [ref=f8e26] [cursor=pointer]:
+          - option "All article types" [selected]
+          - option "Research article"
+          - option "Review"
+          - option "Short communication"
+          - option "Methods article"
+          - option "Data paper"
+          - option "Perspective"
+          - option "Commentary"
+          - option "Correspondence"
+        - button "Search" [ref=f8e27] [cursor=pointer]
+        - link "Advanced" [ref=f8e28] [cursor=pointer]:
+          - /url: /search#advanced
+    - generic [ref=f8e30]:
+      - navigation "Main" [ref=f8e31]:
+        - link "Journals" [ref=f8e32] [cursor=pointer]:
+          - /url: /journals
+        - link "Articles" [ref=f8e33] [cursor=pointer]:
+          - /url: /articles
+        - link "Researchers" [ref=f8e34] [cursor=pointer]:
+          - /url: /researchers
+        - link "Datasets" [ref=f8e35] [cursor=pointer]:
+          - /url: /datasets
+        - link "Protocols" [ref=f8e36] [cursor=pointer]:
+          - /url: /protocols
+      - generic [ref=f8e37]:
+        - group "Language" [ref=f8e38]:
+          - button "en" [pressed] [ref=f8e39] [cursor=pointer]
+          - button "es" [ref=f8e40] [cursor=pointer]
+        - link "Sign in" [ref=f8e41] [cursor=pointer]:
+          - /url: /login
+        - link "Submit a manuscript" [ref=f8e42] [cursor=pointer]:
+          - /url: /submit
+  - main [ref=f8e43]:
+    - generic [ref=f8e45]:
+      - generic [ref=f8e46]:
+        - paragraph [ref=f8e47]: Caribbean scientific publishing
+        - heading "From the Caribbean to the world." [level=1] [ref=f8e48]
+        - paragraph [ref=f8e49]: "An open, rigorous publishing platform powering the region's research: transparent peer review, open data, and free access for everyone."
+        - generic [ref=f8e50]:
+          - link "Submit a manuscript" [ref=f8e51] [cursor=pointer]:
+            - /url: /submit
+          - link "Explore articles" [ref=f8e52] [cursor=pointer]:
+            - /url: /articles
+        - generic [ref=f8e53]:
+          - generic [ref=f8e54]:
+            - definition [ref=f8e55]: "8"
+            - term [ref=f8e56]: Published articles
+          - generic [ref=f8e57]:
+            - definition [ref=f8e58]: "8"
+            - term [ref=f8e59]: Researchers
+          - generic [ref=f8e60]:
+            - definition [ref=f8e61]: "8"
+            - term [ref=f8e62]: Institutions
+          - generic [ref=f8e63]:
+            - definition [ref=f8e64]: "1"
+            - term [ref=f8e65]: Journals
+          - generic [ref=f8e66]:
+            - definition [ref=f8e67]: "2"
+            - term [ref=f8e68]: Datasets
+          - generic [ref=f8e69]:
+            - definition [ref=f8e70]: "14"
+            - term [ref=f8e71]: Countries
+      - complementary [ref=f8e72]:
+        - generic [ref=f8e73]:
+          - paragraph [ref=f8e74]: Publish with us
+          - heading "Ready to publish?" [level=2] [ref=f8e75]
+          - paragraph [ref=f8e76]: We never fabricate metrics, DOIs, or indexes. Every figure shown reflects the real, verified state of our editorial system.
+          - link "Submit a manuscript →" [ref=f8e78] [cursor=pointer]:
+            - /url: /submit
+        - generic [ref=f8e79]:
+          - paragraph [ref=f8e80]: About the platform
+          - paragraph [ref=f8e81]: "An open, rigorous publishing platform powering the region's research: transparent peer review, open data, and free access for everyone."
+          - paragraph [ref=f8e82]: Published by CARIBE SCIENCE · ISSN 2736-XXXX
+          - link "Journals →" [ref=f8e83] [cursor=pointer]:
+            - /url: /journals
+    - generic [ref=f8e85]:
+      - generic [ref=f8e86]:
+        - generic [ref=f8e87]:
+          - paragraph [ref=f8e88]: Publishing
+          - heading "Journals" [level=2] [ref=f8e89]
+          - paragraph [ref=f8e90]: Publications led by the region's scientific community.
+        - link "View all →" [ref=f8e91] [cursor=pointer]:
+          - /url: /journals
+      - generic [ref=f8e93]:
+        - generic [ref=f8e94]:
+          - heading [level=3] [ref=f8e95]:
+            - link "CARIBE Journal of Biological Sciences" [ref=f8e96] [cursor=pointer]:
+              - /url: /journals/caribe-journal-of-biological-sciences
+          - paragraph [ref=f8e97]: Open-access journal publishing original research in biological and environmental sciences across the Caribbean and Latin America.
+          - generic [ref=f8e98]:
+            - generic [ref=f8e99]: Biology
+            - generic [ref=f8e100]: Microbiology
+            - generic [ref=f8e101]: Genetics
+            - generic [ref=f8e102]: Ecology
+        - generic [ref=f8e103]:
+          - generic [ref=f8e104]: Open access
+          - paragraph [ref=f8e105]: ISSN 2850-0000
+          - paragraph [ref=f8e106]: CARIBE SCIENCE
+    - generic [ref=f8e107]:
+      - generic [ref=f8e108]:
+        - generic [ref=f8e109]:
+          - paragraph [ref=f8e110]: Research
+          - heading "Latest articles" [level=2] [ref=f8e111]
+          - paragraph [ref=f8e112]: The region's newest research, open access.
+        - link "View all →" [ref=f8e113] [cursor=pointer]:
+          - /url: /articles
+      - generic [ref=f8e114]:
+        - article [ref=f8e115]:
+          - paragraph [ref=f8e116]: research article
+          - heading [level=3] [ref=f8e117]:
+            - 'link "Genetic Diversity of Caribbean Mangrove Species: Implications for Conservation" [ref=f8e118] [cursor=pointer]':
+              - /url: /articles/genetic-diversity-of-caribbean-mangrove-species-implications-for-conservation
+          - paragraph [ref=f8e119]: Dr. Luis Enrique Pardo, Dr. Roberto Castillo
+          - paragraph [ref=f8e120]:
+            - emphasis [ref=f8e121]: CARIBE Journal of Biological Sciences
+            - strong [ref=f8e122]: "2026"
+        - article [ref=f8e123]:
+          - paragraph [ref=f8e124]: research article
+          - heading [level=3] [ref=f8e125]:
+            - 'link "Marine Microbiomes of the Caribbean: Diversity and Biotechnological Potential" [ref=f8e126] [cursor=pointer]':
+              - /url: /articles/marine-microbiomes-of-the-caribbean-diversity-and-biotechnological-potential
+          - paragraph [ref=f8e127]: Dra. Camila Rojas
+          - paragraph [ref=f8e128]:
+            - emphasis [ref=f8e129]: CARIBE Journal of Biological Sciences
+            - strong [ref=f8e130]: "2026"
+        - article [ref=f8e131]:
+          - paragraph [ref=f8e132]: research article
+          - heading [level=3] [ref=f8e133]:
+            - link "Tropical Forest Regrowth and Carbon Accumulation in the Colombian Caribbean" [ref=f8e134] [cursor=pointer]:
+              - /url: /articles/tropical-forest-regrowth-and-carbon-accumulation-in-the-colombian-caribbean
+          - paragraph [ref=f8e135]: Dr. Javier Torres, Dra. María Fernanda Duarte
+          - paragraph [ref=f8e136]:
+            - emphasis [ref=f8e137]: CARIBE Journal of Biological Sciences
+            - strong [ref=f8e138]: "2026"
+        - article [ref=f8e139]:
+          - paragraph [ref=f8e140]: research article
+          - heading [level=3] [ref=f8e141]:
+            - 'link "LEPR Gene Variants in Caribbean Populations: A Systematic Review" [ref=f8e142] [cursor=pointer]':
+              - /url: /articles/lepr-gene-variants-in-caribbean-populations-a-systematic-review
+          - paragraph [ref=f8e143]: Dr. Roberto Castillo
+          - paragraph [ref=f8e144]:
+            - emphasis [ref=f8e145]: CARIBE Journal of Biological Sciences
+            - strong [ref=f8e146]: "2026"
+        - article [ref=f8e147]:
+          - paragraph [ref=f8e148]: research article
+          - heading [level=3] [ref=f8e149]:
+            - link "Reef Fish Assemblages and Marine Protected Area Effectiveness in the Wider Caribbean" [ref=f8e150] [cursor=pointer]:
+              - /url: /articles/reef-fish-assemblages-and-marine-protected-area-effectiveness-in-the-wider-caribbean
+          - paragraph [ref=f8e151]: Dr. Marcus Grant
+          - paragraph [ref=f8e152]:
+            - emphasis [ref=f8e153]: CARIBE Journal of Biological Sciences
+            - strong [ref=f8e154]: "2026"
+        - article [ref=f8e155]:
+          - paragraph [ref=f8e156]: research article
+          - heading [level=3] [ref=f8e157]:
+            - link "Ecotourism as a Conservation Strategy in Caribbean Coastal Communities" [ref=f8e158] [cursor=pointer]:
+              - /url: /articles/ecotourism-as-a-conservation-strategy-in-caribbean-coastal-communities
+          - paragraph [ref=f8e159]: Dra. Elena Pérez, Dra. Ana Carolina Mejía
+          - paragraph [ref=f8e160]:
+            - emphasis [ref=f8e161]: CARIBE Journal of Biological Sciences
+            - strong [ref=f8e162]: "2026"
+    - generic [ref=f8e164]:
+      - generic [ref=f8e165]:
+        - generic [ref=f8e166]:
+          - paragraph [ref=f8e167]: Network
+          - heading "The Caribbean on the map" [level=2] [ref=f8e168]
+        - paragraph [ref=f8e169]: "A network of talent spanning every island and coast of the Caribbean basin: countries, institutions, and scientific communities connected."
+        - list [ref=f8e170]:
+          - listitem [ref=f8e171]: Cuba
+          - listitem [ref=f8e173]: Jamaica
+          - listitem [ref=f8e175]: Hispaniola
+          - listitem [ref=f8e177]: Puerto Rico
+          - listitem [ref=f8e179]: Trinidad & Tobago
+          - listitem [ref=f8e181]: Costa Rica
+          - listitem [ref=f8e183]: Colombia
+          - listitem [ref=f8e185]: Venezuela
+          - listitem [ref=f8e187]: Panamá
+      - generic [ref=f8e189]:
+        - region "Map" [ref=f8e191]
+        - generic [ref=f8e192]:
+          - generic [ref=f8e193]: CARIBE SCIENCE · red de investigación regional
+          - generic [ref=f8e194]:
+            - generic [ref=f8e195]: Islas
+            - generic [ref=f8e197]: Costas continentales
+    - generic [ref=f8e200]:
+      - generic [ref=f8e201]:
+        - generic [ref=f8e202]:
+          - paragraph [ref=f8e203]: Open science
+          - heading "Open data" [level=2] [ref=f8e204]
+        - paragraph [ref=f8e205]: Published articles are backed by datasets and protocols available under open licenses.
+        - generic [ref=f8e206]:
+          - link [ref=f8e207] [cursor=pointer]:
+            - /url: /datasets/caribbean-reef-fish-biomass
+            - paragraph [ref=f8e208]: Reef fish biomass across Caribbean MPAs (demo subset)
+            - paragraph [ref=f8e209]: CSV · 512 KB · v1.0
+          - link [ref=f8e210] [cursor=pointer]:
+            - /url: /datasets/cartagena-mangrove-soil-carbon
+            - paragraph [ref=f8e211]: Soil organic carbon in urban mangrove forests of Cartagena Bay
+            - paragraph [ref=f8e212]: CSV · 238 KB · v1.0
+        - link "View all →" [ref=f8e213] [cursor=pointer]:
+          - /url: /datasets
+      - generic [ref=f8e214]:
+        - generic [ref=f8e215]:
+          - paragraph [ref=f8e216]: Researchers
+          - heading "Featured researchers" [level=2] [ref=f8e217]
+          - paragraph [ref=f8e218]: Meet the people building Caribbean knowledge.
+          - list [ref=f8e219]:
+            - listitem [ref=f8e220]:
+              - link "Dra. Ana Carolina Mejía UNICARTAGENA" [ref=f8e221] [cursor=pointer]:
+                - /url: /researchers/c529d33c-da9c-4fac-99cc-4cdf11b8a167
+                - generic [ref=f8e222]: Dra. Ana Carolina Mejía
+                - generic [ref=f8e223]: UNICARTAGENA
+            - listitem [ref=f8e224]:
+              - link "Dr. Luis Enrique Pardo INVEMAR" [ref=f8e225] [cursor=pointer]:
+                - /url: /researchers/1e7e9c21-5a04-425d-8a64-7d2328678d6f
+                - generic [ref=f8e226]: Dr. Luis Enrique Pardo
+                - generic [ref=f8e227]: INVEMAR
+            - listitem [ref=f8e228]:
+              - link "Dra. Camila Rojas UH" [ref=f8e229] [cursor=pointer]:
+                - /url: /researchers/420a9583-3998-4926-89d6-f5aebc175162
+                - generic [ref=f8e230]: Dra. Camila Rojas
+                - generic [ref=f8e231]: UH
+            - listitem [ref=f8e232]:
+              - link "Dr. Javier Torres UPR" [ref=f8e233] [cursor=pointer]:
+                - /url: /researchers/d0f15ae2-a7ad-49b8-b101-8fdbf2e98b70
+                - generic [ref=f8e234]: Dr. Javier Torres
+                - generic [ref=f8e235]: UPR
+        - link "View all →" [ref=f8e237] [cursor=pointer]:
+          - /url: /researchers
+  - contentinfo [ref=f8e238]:
+    - generic [ref=f8e240]:
+      - paragraph [ref=f8e241]:
+        - emphasis [ref=f8e242]: CARIBE Journal of Biological Sciences
+        - text: ", eISSN 2850-0001, Published by CARIBE SCIENCE"
+      - paragraph [ref=f8e243]:
+        - link "RSS" [ref=f8e244] [cursor=pointer]:
+          - /url: /articles
+        - link "Content alert" [ref=f8e245] [cursor=pointer]:
+          - /url: /search
+    - generic [ref=f8e246]:
+      - generic [ref=f8e247]:
+        - generic [ref=f8e248]:
+          - generic [ref=f8e249]: CARIBE SCIENCE
+          - paragraph [ref=f8e250]: Advancing scientific knowledge from the Caribbean to the world.
+          - generic [ref=f8e251]:
+            - textbox "Stay updated" [ref=f8e252]:
+              - /placeholder: Your email
+            - button "Sign up" [ref=f8e253] [cursor=pointer]
+        - navigation "Further information" [ref=f8e254]:
+          - paragraph [ref=f8e255]: Further information
+          - list [ref=f8e256]:
+            - listitem [ref=f8e257]:
+              - link "Article processing charges" [ref=f8e258] [cursor=pointer]:
+                - /url: /journals
+            - listitem [ref=f8e259]:
+              - link "Open access policy" [ref=f8e260] [cursor=pointer]:
+                - /url: /journals
+            - listitem [ref=f8e261]:
+              - link "Contact" [ref=f8e262] [cursor=pointer]:
+                - /url: mailto:contact@caribescience.org
+            - listitem [ref=f8e263]:
+              - link "For libraries" [ref=f8e264] [cursor=pointer]:
+                - /url: /journals
+        - navigation "Guidelines" [ref=f8e265]:
+          - paragraph [ref=f8e266]: Guidelines
+          - list [ref=f8e267]:
+            - listitem [ref=f8e268]:
+              - link "For authors" [ref=f8e269] [cursor=pointer]:
+                - /url: /submit
+            - listitem [ref=f8e270]:
+              - link "For reviewers" [ref=f8e271] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f8e272]:
+              - link "For editors" [ref=f8e273] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f8e274]:
+              - link "For societies" [ref=f8e275] [cursor=pointer]:
+                - /url: /researchers
+            - listitem [ref=f8e276]:
+              - link "For institutions" [ref=f8e277] [cursor=pointer]:
+                - /url: /researchers
+        - navigation "CARIBE initiatives" [ref=f8e278]:
+          - paragraph [ref=f8e279]: CARIBE initiatives
+          - list [ref=f8e280]:
+            - listitem [ref=f8e281]:
+              - link "Journals" [ref=f8e282] [cursor=pointer]:
+                - /url: /journals
+            - listitem [ref=f8e283]:
+              - link "Datasets" [ref=f8e284] [cursor=pointer]:
+                - /url: /datasets
+            - listitem [ref=f8e285]:
+              - link "Protocols" [ref=f8e286] [cursor=pointer]:
+                - /url: /protocols
+            - listitem [ref=f8e287]:
+              - link "Researchers" [ref=f8e288] [cursor=pointer]:
+                - /url: /researchers
+            - listitem [ref=f8e289]:
+              - link "Search" [ref=f8e290] [cursor=pointer]:
+                - /url: /search
+        - navigation "Get involved" [ref=f8e291]:
+          - paragraph [ref=f8e292]: Get involved
+          - list [ref=f8e293]:
+            - listitem [ref=f8e294]:
+              - link "Submit a manuscript" [ref=f8e295] [cursor=pointer]:
+                - /url: /submit
+            - listitem [ref=f8e296]:
+              - link "Review articles" [ref=f8e297] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f8e298]:
+              - link "Propose a dataset" [ref=f8e299] [cursor=pointer]:
+                - /url: /submit
+            - listitem [ref=f8e300]:
+              - link "Join the registry" [ref=f8e301] [cursor=pointer]:
+                - /url: /register
+      - generic [ref=f8e303]:
+        - paragraph [ref=f8e304]: © 2026 CARIBE SCIENCE · Built with scientific rigor in the Caribbean.
+        - list [ref=f8e305]:
+          - listitem [ref=f8e306]:
+            - link "Disclaimer" [ref=f8e307] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=f8e308]:
+            - link "Legal notice" [ref=f8e309] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=f8e310]:
+            - link "Terms and conditions" [ref=f8e311] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=f8e312]:
+            - link "Privacy policy" [ref=f8e313] [cursor=pointer]:
+              - /url: /privacy
+          - listitem [ref=f8e314]:
+            - link "Accessibility" [ref=f8e315] [cursor=pointer]:
+              - /url: /accessibility
+  - alert [ref=f8e316]

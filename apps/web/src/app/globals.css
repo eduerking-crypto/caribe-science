@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-serif), Georgia, "Times New Roman", serif;
+
+  /* Azul marino institucional — superficies oscuras, palabra de marca */
+  --color-navy-700: #1a3e70;
+  --color-navy-800: #123059;
+  --color-navy-900: #0b2447;
+  --color-navy-950: #061224;
+
+  /* Azul editorial — enlaces, CTAs, elementos interactivos */
+  --color-reef-50: #eff5f9;
+  --color-reef-100: #deeaf2;
+  --color-reef-200: #c2d8e6;
+  --color-reef-300: #9cbcd3;
+  --color-reef-400: #5f93b6;
+  --color-reef-500: #2f759f;
+  --color-reef-600: #0e5a8f;
+  --color-reef-700: #0b4873;
+  --color-reef-800: #0a3a5d;
+  --color-reef-900: #082c47;
+
+  /* Oceano profundo — avatares, mapas, texto sobre oscuro */
+  --color-ocean-50: #f2f5f8;
+  --color-ocean-100: #e1e7ee;
+  --color-ocean-200: #c9d4e0;
+  --color-ocean-300: #a3b6c8;
+  --color-ocean-400: #7590a9;
+  --color-ocean-500: #51708c;
+  --color-ocean-600: #3a5873;
+  --color-ocean-700: #2c465e;
+  --color-ocean-800: #1f3550;
+  --color-ocean-900: #15263c;
+  --color-ocean-950: #0c1929;
+
+  /* Coral editorial — eyebrows de seccion, banderas "Open access", alertas */
+  --color-coral-50: #fbf1ee;
+  --color-coral-100: #f6ddd6;
+  --color-coral-200: #edc0b4;
+  --color-coral-300: #e19987;
+  --color-coral-400: #d1735d;
+  --color-coral-500: #be5339;
+  --color-coral-600: #a03d26;
+  --color-coral-700: #7f2e1d;
+
+  /* Ambar — estados de flujo editorial (en revision, aceptado) */
+  --color-sun-100: #fbf3e6;
+  --color-sun-200: #f5e2c4;
+  --color-sun-300: #edcd97;
+  --color-sun-400: #e2b268;
+  --color-sun-500: #c9913f;
+  --color-sun-600: #a06f26;
+
+  /* Arena — notas editoriales */
+  --color-sand-50: #faf7f1;
+  --color-sand-100: #f2ece0;
+  --color-sand-200: #e6dbc4;
+  --color-sand-300: #d3c19a;
+
+  /* Papel (cuerpo tipo journal) */
+  --color-paper: #ffffff;
+  --color-paper-dim: #f6f8fa;
+
+  --color-ink: #101418;
+  --color-mut: #5d666e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans bg-paper text-[#1f2428] antialiased dark:bg-[#0b1322] dark:text-[#d7dee8];
+}
+
+::selection {
+  @apply bg-reef-200 text-ink;
+}
+
+/* Tipografía editorial para HTML de artículos (estilo journal: serif en titulares) */
+.prose-science {
+  @apply text-[0.98rem] leading-[1.75] text-[#2a2f33] dark:text-[#c9d1d6];
+}
+.prose-science h2 {
+  @apply font-display text-[1.4rem] font-semibold mt-10 mb-3 text-ink dark:text-white;
+}
+.prose-science h3 {
+  @apply font-display text-[1.18rem] font-semibold mt-8 mb-2 text-ink dark:text-white;
+}
+.prose-science p {
+  @apply mt-4;
+}
+.prose-science ul,
+.prose-science ol {
+  @apply mt-4 pl-6 space-y-1;
+}
+.prose-science ul {
+  @apply list-disc;
+}
+.prose-science ol {
+  @apply list-decimal;
+}
+.prose-science a {
+  @apply text-reef-600 underline decoration-reef-300 underline-offset-2 hover:text-reef-700 dark:text-reef-300 dark:decoration-reef-700 dark:hover:text-reef-200;
+}
+.prose-science em {
+  @apply italic;
+}
+.prose-science strong {
+  @apply font-semibold text-ink dark:text-white;
+}
+.prose-science blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic my-6 text-[#555b60] dark:border-gray-700 dark:text-gray-300;
+}
+.prose-science table {
+  @apply w-full border-collapse my-6 text-sm;
+}
+.prose-science th,
+.prose-science td {
+  @apply border border-gray-300 px-3 py-2 dark:border-gray-700;
+}
+.prose-science th {
+  @apply bg-paper-dim text-left font-semibold dark:bg-[#121b2b];
+}
+.prose-science figure {
+  @apply my-8;
+}
+.prose-science img {
+  @apply rounded-[2px] border border-gray-200 dark:border-gray-800;
+}
+.prose-science figcaption {
+  @apply text-xs text-mut mt-2;
+}
+.prose-science code {
+  @apply rounded bg-gray-100 px-1.5 py-0.5 text-sm font-mono dark:bg-gray-800;
+}
+.prose-science pre {
+  @apply overflow-x-auto rounded-[2px] bg-[#0b1322] p-4 text-sm text-gray-100 my-6;
+}
+.prose-science pre code {
+  @apply bg-transparent p-0 text-inherit;
+}
+
+/* Scrollbar sutil */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-gray-300 dark:bg-gray-700;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-gray-600;
+}

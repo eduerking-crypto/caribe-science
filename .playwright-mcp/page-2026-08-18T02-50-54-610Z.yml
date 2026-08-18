@@ -1,0 +1,411 @@
+- generic [active] [ref=f14e1]:
+  - banner [ref=f14e2]:
+    - generic [ref=f14e5]:
+      - paragraph [ref=f14e6]: ISSN 2736-XXXX (Online)|Open access · Peer-reviewed
+      - navigation "Utility" [ref=f14e7]:
+        - link "Journals" [ref=f14e8] [cursor=pointer]:
+          - /url: /journals
+        - link "Articles" [ref=f14e9] [cursor=pointer]:
+          - /url: /articles
+        - link "Privacy policy" [ref=f14e10] [cursor=pointer]:
+          - /url: /privacy
+        - button "Switch to dark mode" [ref=f14e12] [cursor=pointer]
+    - generic [ref=f14e15]:
+      - link "CARIBE SCIENCE Advancing scientific knowledge from the Caribbean to the world." [ref=f14e17] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f14e18]: CARIBE SCIENCE
+        - generic [ref=f14e19]: Advancing scientific knowledge from the Caribbean to the world.
+      - search "Search for Articles:" [ref=f14e21]:
+        - textbox "Title / Keyword" [ref=f14e23]
+        - textbox "Author / Affiliation / Email" [ref=f14e24]
+        - combobox "All journals" [ref=f14e25] [cursor=pointer]:
+          - option "All journals" [selected]
+        - combobox "All article types" [ref=f14e26] [cursor=pointer]:
+          - option "All article types" [selected]
+          - option "Research article"
+          - option "Review"
+          - option "Short communication"
+          - option "Methods article"
+          - option "Data paper"
+          - option "Perspective"
+          - option "Commentary"
+          - option "Correspondence"
+        - button "Search" [ref=f14e27] [cursor=pointer]
+        - link "Advanced" [ref=f14e28] [cursor=pointer]:
+          - /url: /search#advanced
+    - generic [ref=f14e30]:
+      - navigation "Main" [ref=f14e31]:
+        - link "Journals" [ref=f14e32] [cursor=pointer]:
+          - /url: /journals
+        - link "Articles" [ref=f14e33] [cursor=pointer]:
+          - /url: /articles
+        - link "Editorial" [ref=f14e34] [cursor=pointer]:
+          - /url: /editorial
+        - link "Researchers" [ref=f14e35] [cursor=pointer]:
+          - /url: /researchers
+        - link "Datasets" [ref=f14e36] [cursor=pointer]:
+          - /url: /datasets
+        - link "Protocols" [ref=f14e37] [cursor=pointer]:
+          - /url: /protocols
+      - generic [ref=f14e38]:
+        - group "Language" [ref=f14e39]:
+          - button "en" [pressed] [ref=f14e40] [cursor=pointer]
+          - button "es" [ref=f14e41] [cursor=pointer]
+        - link "Sign in" [ref=f14e42] [cursor=pointer]:
+          - /url: /login
+        - link "Submit a manuscript" [ref=f14e43] [cursor=pointer]:
+          - /url: /submit
+  - main [ref=f14e44]:
+    - generic [ref=f14e46]:
+      - generic [ref=f14e47]:
+        - paragraph [ref=f14e48]: Caribbean scientific publishing
+        - heading "From the Caribbean to the world." [level=1] [ref=f14e49]
+        - paragraph [ref=f14e50]: "An open, rigorous publishing platform powering the region's research: transparent peer review, open data, and free access for everyone."
+        - generic [ref=f14e51]:
+          - link "Submit a manuscript" [ref=f14e52] [cursor=pointer]:
+            - /url: /submit
+          - link "Explore articles" [ref=f14e53] [cursor=pointer]:
+            - /url: /articles
+        - generic [ref=f14e54]:
+          - generic [ref=f14e55]:
+            - definition [ref=f14e56]: "8"
+            - term [ref=f14e57]: Published articles
+          - generic [ref=f14e58]:
+            - definition [ref=f14e59]: "9"
+            - term [ref=f14e60]: Researchers
+          - generic [ref=f14e61]:
+            - definition [ref=f14e62]: "8"
+            - term [ref=f14e63]: Institutions
+          - generic [ref=f14e64]:
+            - definition [ref=f14e65]: "1"
+            - term [ref=f14e66]: Journals
+          - generic [ref=f14e67]:
+            - definition [ref=f14e68]: "2"
+            - term [ref=f14e69]: Datasets
+          - generic [ref=f14e70]:
+            - definition [ref=f14e71]: "14"
+            - term [ref=f14e72]: Countries
+      - complementary [ref=f14e73]:
+        - generic [ref=f14e77]:
+          - paragraph [ref=f14e78]: Publish with us
+          - heading "Ready to publish?" [level=2] [ref=f14e79]
+          - paragraph [ref=f14e80]: We never fabricate metrics, DOIs, or indexes. Every figure shown reflects the real, verified state of our editorial system.
+          - link "Submit a manuscript →" [ref=f14e82] [cursor=pointer]:
+            - /url: /submit
+        - generic [ref=f14e83]:
+          - paragraph [ref=f14e84]: Journal information
+          - paragraph [ref=f14e85]: CARIBE Journal of Biological Sciences
+          - generic [ref=f14e86]:
+            - generic [ref=f14e87]:
+              - term [ref=f14e88]: Published by
+              - definition [ref=f14e89]: CARIBE SCIENCE
+            - generic [ref=f14e90]:
+              - term [ref=f14e91]: ISSN (Online)
+              - definition [ref=f14e92]: 2850-0001
+            - generic [ref=f14e93]:
+              - term [ref=f14e94]: Access
+              - definition [ref=f14e95]: Open access
+            - generic [ref=f14e96]:
+              - term [ref=f14e97]: License
+              - definition [ref=f14e98]: CC BY 4.0
+          - generic [ref=f14e99]:
+            - paragraph [ref=f14e100]: Focus areas
+            - generic [ref=f14e101]:
+              - generic [ref=f14e102]: Chronic Disease Epidemiology
+              - generic [ref=f14e103]: Cardiometabolic Genetics
+              - generic [ref=f14e104]: Nutrition & Diet Quality
+              - generic [ref=f14e105]: Microbiome & Inflammation
+              - generic [ref=f14e106]: Lung Function & COPD
+              - generic [ref=f14e107]: Cohort Studies
+          - link "Journals →" [ref=f14e108] [cursor=pointer]:
+            - /url: /journals
+    - generic [ref=f14e110]:
+      - generic [ref=f14e111]:
+        - generic [ref=f14e112]:
+          - paragraph [ref=f14e113]: Publishing
+          - heading "Journals" [level=2] [ref=f14e114]
+          - paragraph [ref=f14e115]: Publications led by the region's scientific community.
+        - link "View all →" [ref=f14e116] [cursor=pointer]:
+          - /url: /journals
+      - generic [ref=f14e118]:
+        - generic [ref=f14e119]:
+          - heading [level=3] [ref=f14e120]:
+            - link "CARIBE Journal of Biological Sciences" [ref=f14e121] [cursor=pointer]:
+              - /url: /journals/caribe-journal-of-biological-sciences
+          - paragraph [ref=f14e122]: Open-access journal advancing chronic disease epidemiology, cardiometabolic genetics, nutrition and public health research across the Caribbean and Latin America, with emphasis on admixed populations.
+          - generic [ref=f14e123]:
+            - generic [ref=f14e124]: Chronic Disease Epidemiology
+            - generic [ref=f14e125]: Cardiometabolic Genetics
+            - generic [ref=f14e126]: Nutrition & Diet Quality
+            - generic [ref=f14e127]: Microbiome & Inflammation
+        - generic [ref=f14e128]:
+          - generic [ref=f14e129]: Open access
+          - paragraph [ref=f14e130]: ISSN 2850-0000
+          - paragraph [ref=f14e131]: CARIBE SCIENCE
+    - generic [ref=f14e134]:
+      - link [ref=f14e135] [cursor=pointer]:
+        - /url: /articles/airway-microbiome-is-associated-with-subclinical-atherosclerosis-in-adults-from-the-southern-caribbean
+        - img "Mangrove forest in the Caribbean" [ref=f14e136]
+        - paragraph [ref=f14e137]: "Caribbean mangroves. Photo: Unsplash / 1763442363212"
+      - generic [ref=f14e138]:
+        - paragraph [ref=f14e139]: Featured research
+        - heading [level=2] [ref=f14e140]:
+          - link "Airway Microbiome Is Associated with Subclinical Atherosclerosis in Adults from the Southern Caribbean" [ref=f14e141] [cursor=pointer]:
+            - /url: /articles/airway-microbiome-is-associated-with-subclinical-atherosclerosis-in-adults-from-the-southern-caribbean
+        - paragraph [ref=f14e142]: Gustavo José Mora-García, Dr. Roberto Castillo
+        - paragraph [ref=f14e143]: Using 16S rRNA sequencing of the airway microbiome and carotid ultrasound in adults from the Cartagena Cohort Study, we found that airway microbial composition, particularly reduced commensal diversity, is associated with subclinical carotid atherosclerosis independently of classical risk factors.
+        - paragraph [ref=f14e144]:
+          - emphasis [ref=f14e145]: CARIBE Journal of Biological Sciences
+          - strong [ref=f14e146]: "2026"
+        - link "Read the article →" [ref=f14e147] [cursor=pointer]:
+          - /url: /articles/airway-microbiome-is-associated-with-subclinical-atherosclerosis-in-adults-from-the-southern-caribbean
+    - generic [ref=f14e150]:
+      - generic [ref=f14e151]:
+        - paragraph [ref=f14e152]: From the Editor
+        - blockquote [ref=f14e153]:
+          - paragraph [ref=f14e154]: “The epidemic of chronic disease in admixed Caribbean populations demands understanding the shared pathophysiology of heart, lung and metabolism — that is what CaReS will investigate over a decade.”
+      - generic [ref=f14e155]:
+        - generic [ref=f14e156]: GM
+        - generic [ref=f14e157]:
+          - paragraph [ref=f14e158]: Gustavo José Mora-García
+          - paragraph [ref=f14e159]: MD, PhD · Editor-in-ChiefUniversidad de Cartagena
+          - link "Meet the editor →" [ref=f14e160] [cursor=pointer]:
+            - /url: /editorial
+    - generic [ref=f14e161]:
+      - generic [ref=f14e162]:
+        - generic [ref=f14e163]:
+          - paragraph [ref=f14e164]: Research
+          - heading "Latest articles" [level=2] [ref=f14e165]
+          - paragraph [ref=f14e166]: The region's newest research, open access.
+        - link "View all →" [ref=f14e167] [cursor=pointer]:
+          - /url: /articles
+      - generic [ref=f14e168]:
+        - article [ref=f14e169]:
+          - paragraph [ref=f14e170]: research article
+          - heading [level=3] [ref=f14e171]:
+            - link "Ultra-processed Food Intake and Lung Function in U.S. Adults" [ref=f14e172] [cursor=pointer]:
+              - /url: /articles/ultra-processed-food-intake-and-lung-function-in-u-s-adults
+          - paragraph [ref=f14e173]: Gustavo José Mora-García
+          - paragraph [ref=f14e174]:
+            - emphasis [ref=f14e175]: CARIBE Journal of Biological Sciences
+            - strong [ref=f14e176]: "2026"
+        - article [ref=f14e177]:
+          - paragraph [ref=f14e178]: research article
+          - heading [level=3] [ref=f14e179]:
+            - link "Interaction Analysis of FTO and IRX3 Genes with Obesity Traits in the Colombian Caribbean" [ref=f14e180] [cursor=pointer]:
+              - /url: /articles/interaction-analysis-of-fto-and-irx3-genes-with-obesity-traits-in-the-colombian-caribbean
+          - paragraph [ref=f14e181]: Gustavo José Mora-García, Dr. Roberto Castillo
+          - paragraph [ref=f14e182]:
+            - emphasis [ref=f14e183]: CARIBE Journal of Biological Sciences
+            - strong [ref=f14e184]: "2026"
+        - article [ref=f14e185]:
+          - paragraph [ref=f14e186]: research article
+          - heading [level=3] [ref=f14e187]:
+            - link "Household Food Insecurity, Lung Function, and COPD in US Adults" [ref=f14e188] [cursor=pointer]:
+              - /url: /articles/household-food-insecurity-lung-function-and-copd-in-us-adults
+          - paragraph [ref=f14e189]: Gustavo José Mora-García
+          - paragraph [ref=f14e190]:
+            - emphasis [ref=f14e191]: CARIBE Journal of Biological Sciences
+            - strong [ref=f14e192]: "2026"
+        - article [ref=f14e193]:
+          - paragraph [ref=f14e194]: research article
+          - heading [level=3] [ref=f14e195]:
+            - link "Anthropometric Parameters' Cut-off Points and Predictive Value for Metabolic Syndrome in Women from Cartagena, Colombia" [ref=f14e196] [cursor=pointer]:
+              - /url: /articles/anthropometric-parameters-cut-off-points-and-predictive-value-for-metabolic-syndrome-in-women-from-cartagena-colombia
+          - paragraph [ref=f14e197]: Gustavo José Mora-García, Dra. Ana Carolina Mejía
+          - paragraph [ref=f14e198]:
+            - emphasis [ref=f14e199]: CARIBE Journal of Biological Sciences
+            - strong [ref=f14e200]: "2026"
+        - article [ref=f14e201]:
+          - paragraph [ref=f14e202]: research article
+          - heading [level=3] [ref=f14e203]:
+            - link "Changes in Diet Quality over 10 Years of Nutrition Transition in Colombia" [ref=f14e204] [cursor=pointer]:
+              - /url: /articles/changes-in-diet-quality-over-10-years-of-nutrition-transition-in-colombia
+          - paragraph [ref=f14e205]: Gustavo José Mora-García, Dr. Luis Enrique Pardo
+          - paragraph [ref=f14e206]:
+            - emphasis [ref=f14e207]: CARIBE Journal of Biological Sciences
+            - strong [ref=f14e208]: "2026"
+        - article [ref=f14e209]:
+          - paragraph [ref=f14e210]: research article
+          - heading [level=3] [ref=f14e211]:
+            - 'link "Prevalence of Subclinical Carotid Atherosclerosis: Results from the Cartagena Cohort Study (CaReS)" [ref=f14e212] [cursor=pointer]':
+              - /url: /articles/prevalence-of-subclinical-carotid-atherosclerosis-results-from-the-cartagena-cohort-study-cares
+          - paragraph [ref=f14e213]: Gustavo José Mora-García, Dr. Javier Torres, Dra. María Fernanda Duarte
+          - paragraph [ref=f14e214]:
+            - emphasis [ref=f14e215]: CARIBE Journal of Biological Sciences
+            - strong [ref=f14e216]: "2026"
+    - generic [ref=f14e218]:
+      - generic [ref=f14e219]:
+        - generic [ref=f14e220]:
+          - paragraph [ref=f14e221]: Network
+          - heading "The Caribbean on the map" [level=2] [ref=f14e222]
+        - paragraph [ref=f14e223]: "A network of talent spanning every island and coast of the Caribbean basin: countries, institutions, and scientific communities connected."
+        - list [ref=f14e224]:
+          - listitem [ref=f14e225]: Cuba
+          - listitem [ref=f14e227]: Jamaica
+          - listitem [ref=f14e229]: Hispaniola
+          - listitem [ref=f14e231]: Puerto Rico
+          - listitem [ref=f14e233]: Trinidad & Tobago
+          - listitem [ref=f14e235]: Costa Rica
+          - listitem [ref=f14e237]: Colombia
+          - listitem [ref=f14e239]: Venezuela
+          - listitem [ref=f14e241]: Panamá
+      - generic [ref=f14e243]:
+        - region "Map" [ref=f14e245]
+        - generic [ref=f14e246]:
+          - generic [ref=f14e247]: CARIBE SCIENCE · red de investigación regional
+          - generic [ref=f14e248]:
+            - generic [ref=f14e249]: Islas
+            - generic [ref=f14e251]: Costas continentales
+    - generic [ref=f14e254]:
+      - generic [ref=f14e255]:
+        - generic [ref=f14e256]:
+          - paragraph [ref=f14e257]: Open science
+          - heading "Open data" [level=2] [ref=f14e258]
+        - paragraph [ref=f14e259]: Published articles are backed by datasets and protocols available under open licenses.
+        - generic [ref=f14e260]:
+          - link [ref=f14e261] [cursor=pointer]:
+            - /url: /datasets/cartagena-diet-quality-nutrition-transition
+            - paragraph [ref=f14e262]: Diet quality indicators across 10 years of nutrition transition in Cartagena (demo)
+            - paragraph [ref=f14e263]: CSV · 412 KB · v1.0
+          - link [ref=f14e264] [cursor=pointer]:
+            - /url: /datasets/cares-baseline-clinical-data
+            - paragraph [ref=f14e265]: Cartagena Cohort Study (CaReS) — baseline clinical and anthropometric data (demo subset)
+            - paragraph [ref=f14e266]: CSV · 1.2 MB · v1.0
+        - link "View all →" [ref=f14e267] [cursor=pointer]:
+          - /url: /datasets
+      - generic [ref=f14e268]:
+        - generic [ref=f14e269]:
+          - paragraph [ref=f14e270]: Researchers
+          - heading "Featured researchers" [level=2] [ref=f14e271]
+          - paragraph [ref=f14e272]: Meet the people building Caribbean knowledge.
+          - list [ref=f14e273]:
+            - listitem [ref=f14e274]:
+              - link "Gustavo José Mora-García UNICARTAGENA" [ref=f14e275] [cursor=pointer]:
+                - /url: /researchers/cb98572e-7a16-4aba-bfe2-d0745abdfdeb
+                - generic [ref=f14e276]: Gustavo José Mora-García
+                - generic [ref=f14e277]: UNICARTAGENA
+            - listitem [ref=f14e278]:
+              - link "Dra. Ana Carolina Mejía UNICARTAGENA" [ref=f14e279] [cursor=pointer]:
+                - /url: /researchers/a42c39a6-ff27-4276-b3b7-a091bbe186b8
+                - generic [ref=f14e280]: Dra. Ana Carolina Mejía
+                - generic [ref=f14e281]: UNICARTAGENA
+            - listitem [ref=f14e282]:
+              - link "Dr. Luis Enrique Pardo INVEMAR" [ref=f14e283] [cursor=pointer]:
+                - /url: /researchers/38ab0986-0036-4cb7-bc95-4539112b5d24
+                - generic [ref=f14e284]: Dr. Luis Enrique Pardo
+                - generic [ref=f14e285]: INVEMAR
+            - listitem [ref=f14e286]:
+              - link "Dra. Camila Rojas UH" [ref=f14e287] [cursor=pointer]:
+                - /url: /researchers/cd7cc3be-4895-45e6-b30d-ab62e4c42882
+                - generic [ref=f14e288]: Dra. Camila Rojas
+                - generic [ref=f14e289]: UH
+        - link "View all →" [ref=f14e291] [cursor=pointer]:
+          - /url: /researchers
+  - contentinfo [ref=f14e292]:
+    - generic [ref=f14e294]:
+      - paragraph [ref=f14e295]:
+        - emphasis [ref=f14e296]: CARIBE Journal of Biological Sciences
+        - text: ", eISSN 2850-0001, Published by CARIBE SCIENCE"
+      - paragraph [ref=f14e297]:
+        - link "RSS" [ref=f14e298] [cursor=pointer]:
+          - /url: /articles
+        - link "Content alert" [ref=f14e299] [cursor=pointer]:
+          - /url: /search
+    - generic [ref=f14e300]:
+      - generic [ref=f14e301]:
+        - generic [ref=f14e302]:
+          - generic [ref=f14e303]: CARIBE SCIENCE
+          - paragraph [ref=f14e304]: Advancing scientific knowledge from the Caribbean to the world.
+          - generic [ref=f14e305]:
+            - textbox "Stay updated" [ref=f14e306]:
+              - /placeholder: Your email
+            - button "Sign up" [ref=f14e307] [cursor=pointer]
+        - navigation "Further information" [ref=f14e308]:
+          - paragraph [ref=f14e309]: Further information
+          - list [ref=f14e310]:
+            - listitem [ref=f14e311]:
+              - link "About the Editor" [ref=f14e312] [cursor=pointer]:
+                - /url: /editorial
+            - listitem [ref=f14e313]:
+              - link "Article processing charges" [ref=f14e314] [cursor=pointer]:
+                - /url: /journals
+            - listitem [ref=f14e315]:
+              - link "Open access policy" [ref=f14e316] [cursor=pointer]:
+                - /url: /journals
+            - listitem [ref=f14e317]:
+              - link "Contact" [ref=f14e318] [cursor=pointer]:
+                - /url: mailto:gmorag@unicartagena.edu.co
+            - listitem [ref=f14e319]:
+              - link "For libraries" [ref=f14e320] [cursor=pointer]:
+                - /url: /journals
+        - navigation "Guidelines" [ref=f14e321]:
+          - paragraph [ref=f14e322]: Guidelines
+          - list [ref=f14e323]:
+            - listitem [ref=f14e324]:
+              - link "For authors" [ref=f14e325] [cursor=pointer]:
+                - /url: /submit
+            - listitem [ref=f14e326]:
+              - link "For reviewers" [ref=f14e327] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f14e328]:
+              - link "For editors" [ref=f14e329] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f14e330]:
+              - link "For societies" [ref=f14e331] [cursor=pointer]:
+                - /url: /researchers
+            - listitem [ref=f14e332]:
+              - link "For institutions" [ref=f14e333] [cursor=pointer]:
+                - /url: /researchers
+        - navigation "CARIBE initiatives" [ref=f14e334]:
+          - paragraph [ref=f14e335]: CARIBE initiatives
+          - list [ref=f14e336]:
+            - listitem [ref=f14e337]:
+              - link "Journals" [ref=f14e338] [cursor=pointer]:
+                - /url: /journals
+            - listitem [ref=f14e339]:
+              - link "Datasets" [ref=f14e340] [cursor=pointer]:
+                - /url: /datasets
+            - listitem [ref=f14e341]:
+              - link "Protocols" [ref=f14e342] [cursor=pointer]:
+                - /url: /protocols
+            - listitem [ref=f14e343]:
+              - link "Researchers" [ref=f14e344] [cursor=pointer]:
+                - /url: /researchers
+            - listitem [ref=f14e345]:
+              - link "Search" [ref=f14e346] [cursor=pointer]:
+                - /url: /search
+        - navigation "Get involved" [ref=f14e347]:
+          - paragraph [ref=f14e348]: Get involved
+          - list [ref=f14e349]:
+            - listitem [ref=f14e350]:
+              - link "Submit a manuscript" [ref=f14e351] [cursor=pointer]:
+                - /url: /submit
+            - listitem [ref=f14e352]:
+              - link "Review articles" [ref=f14e353] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f14e354]:
+              - link "Propose a dataset" [ref=f14e355] [cursor=pointer]:
+                - /url: /submit
+            - listitem [ref=f14e356]:
+              - link "Join the registry" [ref=f14e357] [cursor=pointer]:
+                - /url: /register
+      - generic [ref=f14e359]:
+        - paragraph [ref=f14e360]: © 2026 CARIBE SCIENCE · Built with scientific rigor in the Caribbean.
+        - list [ref=f14e361]:
+          - listitem [ref=f14e362]:
+            - link "Disclaimer" [ref=f14e363] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=f14e364]:
+            - link "Legal notice" [ref=f14e365] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=f14e366]:
+            - link "Terms and conditions" [ref=f14e367] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=f14e368]:
+            - link "Privacy policy" [ref=f14e369] [cursor=pointer]:
+              - /url: /privacy
+          - listitem [ref=f14e370]:
+            - link "Accessibility" [ref=f14e371] [cursor=pointer]:
+              - /url: /accessibility
+  - alert [ref=f14e372]

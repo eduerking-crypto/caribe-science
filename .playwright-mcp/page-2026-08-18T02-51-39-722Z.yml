@@ -1,0 +1,377 @@
+- generic [active] [ref=f17e1]:
+  - banner [ref=f17e2]:
+    - generic [ref=f17e5]:
+      - paragraph [ref=f17e6]: ISSN 2736-XXXX (Online)|Open access · Peer-reviewed
+      - navigation "Utility" [ref=f17e7]:
+        - link "Revistas" [ref=f17e8] [cursor=pointer]:
+          - /url: /journals
+        - link "Artículos" [ref=f17e9] [cursor=pointer]:
+          - /url: /articles
+        - link "Política de privacidad" [ref=f17e10] [cursor=pointer]:
+          - /url: /privacy
+        - button "Switch to dark mode" [ref=f17e12] [cursor=pointer]
+    - generic [ref=f17e15]:
+      - link "CARIBE SCIENCE Avanzando el conocimiento científico desde el Caribe hacia el mundo." [ref=f17e17] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f17e18]: CARIBE SCIENCE
+        - generic [ref=f17e19]: Avanzando el conocimiento científico desde el Caribe hacia el mundo.
+      - search "Buscar artículos:" [ref=f17e21]:
+        - textbox "Título / Palabra clave" [ref=f17e23]
+        - textbox "Autor / Afiliación / Email" [ref=f17e24]
+        - combobox "Todas las revistas" [ref=f17e25] [cursor=pointer]:
+          - option "Todas las revistas" [selected]
+        - combobox "Todos los tipos" [ref=f17e26] [cursor=pointer]:
+          - option "Todos los tipos" [selected]
+          - option "Artículo de investigación"
+          - option "Revisión"
+          - option "Comunicación breve"
+          - option "Artículo de métodos"
+          - option "Artículo de datos"
+          - option "Perspectiva"
+          - option "Comentario"
+          - option "Correspondencia"
+        - button "Buscar" [ref=f17e27] [cursor=pointer]
+        - link "Avanzada" [ref=f17e28] [cursor=pointer]:
+          - /url: /search#advanced
+    - generic [ref=f17e30]:
+      - navigation "Main" [ref=f17e31]:
+        - link "Revistas" [ref=f17e32] [cursor=pointer]:
+          - /url: /journals
+        - link "Artículos" [ref=f17e33] [cursor=pointer]:
+          - /url: /articles
+        - link "Editorial" [ref=f17e34] [cursor=pointer]:
+          - /url: /editorial
+        - link "Investigadores" [ref=f17e35] [cursor=pointer]:
+          - /url: /researchers
+        - link "Datos" [ref=f17e36] [cursor=pointer]:
+          - /url: /datasets
+        - link "Protocolos" [ref=f17e37] [cursor=pointer]:
+          - /url: /protocols
+      - generic [ref=f17e38]:
+        - group "Language" [ref=f17e39]:
+          - button "en" [ref=f17e40] [cursor=pointer]
+          - button "es" [pressed] [ref=f17e41] [cursor=pointer]
+        - link "Iniciar sesión" [ref=f17e42] [cursor=pointer]:
+          - /url: /login
+        - link "Enviar manuscrito" [ref=f17e43] [cursor=pointer]:
+          - /url: /submit
+  - main [ref=f17e44]:
+    - generic [ref=f17e46]:
+      - paragraph [ref=f17e47]: Comité editorial
+      - heading "Gustavo José Mora-García" [level=1] [ref=f17e48]
+      - paragraph [ref=f17e49]: MD, PhD — Editor en Jefe
+      - generic [ref=f17e50]:
+        - generic [ref=f17e51]:
+          - heading "Biografía profesional" [level=2] [ref=f17e52]
+          - generic [ref=f17e53]:
+            - paragraph [ref=f17e54]: Médico y Doctor en Medicina Tropical. Profesor Asociado, Jefe del Departamento de Investigación de la Facultad de Medicina y líder del Laboratory of Public Health R&D de la Universidad de Cartagena (Cartagena de Indias, Colombia).
+            - paragraph [ref=f17e55]: Su trabajo se centra en la epidemiología de las enfermedades crónicas no transmisibles en poblaciones admixed (ascendencia europea-africana-amerindia) del Caribe colombiano, con énfasis en la intersección entre obesidad, síndrome metabólico, diabetes tipo 2, función pulmonar, aterosclerosis y factores genéticos, nutricionales y del microbioma.
+            - paragraph [ref=f17e56]: Es Investigador Principal del Cartagena Cohort Study (CaReS) (NCT05339048), una cohorte prospectiva de 10 años que estudia la fisiopatología compartida entre enfermedad cardiovascular, aterosclerosis subclínica, deterioro de la función pulmonar y EPOC, integrando datos ómicos, dieta, actividad física y ancestría genética.
+            - paragraph [ref=f17e57]: Realizó un postdoctorado en International Health en la Johns Hopkins Bloomberg School of Public Health (2018-2019). Es Investigador Junior reconocido por Minciencias (Colombia).
+          - generic [ref=f17e58]:
+            - generic [ref=f17e59]:
+              - paragraph [ref=f17e60]: Career
+              - heading "Formación académica" [level=2] [ref=f17e61]
+            - table [ref=f17e63]:
+              - rowgroup [ref=f17e64]:
+                - row [ref=f17e65]:
+                  - columnheader "Nivel" [ref=f17e66]
+                  - columnheader "Institución" [ref=f17e67]
+                  - columnheader "Años" [ref=f17e68]
+                  - columnheader "Título / Área" [ref=f17e69]
+              - rowgroup [ref=f17e70]:
+                - row [ref=f17e71]:
+                  - cell "Pregrado" [ref=f17e72]
+                  - cell "Universidad de Cartagena" [ref=f17e73]
+                  - cell "2004 – 2009" [ref=f17e74]
+                  - cell "Médico (Medicina)" [ref=f17e75]
+                - row [ref=f17e76]:
+                  - cell "Doctorado" [ref=f17e77]
+                  - cell "Universidad de Cartagena" [ref=f17e78]
+                  - cell "2011 – 2016" [ref=f17e79]
+                  - cell "PhD en Medicina Tropical" [ref=f17e80]
+                - row [ref=f17e81]:
+                  - cell "Postdoctorado" [ref=f17e82]
+                  - cell "Johns Hopkins Bloomberg School of Public Health" [ref=f17e83]
+                  - cell "2018 – 2019" [ref=f17e84]
+                  - cell "Postdoctorado, International Health" [ref=f17e85]
+          - generic [ref=f17e86]:
+            - generic [ref=f17e87]:
+              - paragraph [ref=f17e88]: Service
+              - heading "Cargos actuales" [level=2] [ref=f17e89]
+            - list [ref=f17e90]:
+              - listitem [ref=f17e91]:
+                - generic [ref=f17e93]: Profesor (Public Health) — Universidad de Cartagena (desde junio 2012 – presente)
+              - listitem [ref=f17e94]:
+                - generic [ref=f17e96]: Jefe del Departamento de Investigación — Facultad de Medicina, Universidad de Cartagena
+              - listitem [ref=f17e97]:
+                - generic [ref=f17e99]: Líder — Laboratory of Public Health R&D
+              - listitem [ref=f17e100]:
+                - generic [ref=f17e102]: Investigador Principal — Cartagena Cohort Study (CaReS)
+              - listitem [ref=f17e103]:
+                - generic [ref=f17e105]: Tutor de tesis de doctorado y pregrado en Medicina Tropical, Ciencias Biomédicas y Biología
+        - complementary [ref=f17e106]:
+          - generic [ref=f17e107]:
+            - paragraph [ref=f17e108]: Identificación
+            - generic [ref=f17e109]:
+              - generic [ref=f17e110]: GM
+              - generic [ref=f17e111]:
+                - paragraph [ref=f17e112]: Gustavo José Mora-García
+                - paragraph [ref=f17e113]: MD, PhD — Editor en Jefe
+            - generic [ref=f17e114]:
+              - generic [ref=f17e115]:
+                - term [ref=f17e116]: Afiliación
+                - definition [ref=f17e117]: Faculty of Medicine, Universidad de Cartagena, Cartagena, Bolívar, Colombia
+              - generic [ref=f17e118]:
+                - term [ref=f17e119]: ORCID
+                - definition [ref=f17e120]:
+                  - link "0000-0003-4808-5130" [ref=f17e121] [cursor=pointer]:
+                    - /url: https://orcid.org/0000-0003-4808-5130
+              - generic [ref=f17e122]:
+                - term [ref=f17e123]: Scopus
+                - definition [ref=f17e124]:
+                  - link "59157876600" [ref=f17e125] [cursor=pointer]:
+                    - /url: https://www.scopus.com/authid/detail.uri?authorId=59157876600
+              - generic [ref=f17e126]:
+                - term [ref=f17e127]: Email
+                - definition [ref=f17e128]:
+                  - link "gmorag@unicartagena.edu.co" [ref=f17e129] [cursor=pointer]:
+                    - /url: mailto:gmorag@unicartagena.edu.co
+          - generic [ref=f17e130]:
+            - paragraph [ref=f17e131]: Proyecto insignia
+            - paragraph [ref=f17e132]: CaReS
+            - paragraph [ref=f17e133]: Cartagena Cohort Study — NCT05339048
+            - generic [ref=f17e134]:
+              - generic [ref=f17e135]:
+                - term [ref=f17e136]: Duración
+                - definition [ref=f17e137]: 10 años (2020 – 2034)
+              - generic [ref=f17e138]:
+                - term [ref=f17e139]: Población
+                - definition [ref=f17e140]: 18-80 años, Cartagena
+              - generic [ref=f17e141]:
+                - term [ref=f17e142]: Study Director
+                - definition [ref=f17e143]: Vanessa Garcia-Larsen, PhD (Johns Hopkins)
+            - link "Ver registro clínico →" [ref=f17e144] [cursor=pointer]:
+              - /url: https://clinicaltrials.gov/study/NCT05339048
+          - generic [ref=f17e145]:
+            - paragraph [ref=f17e146]: Palabras clave
+            - generic [ref=f17e147]:
+              - generic [ref=f17e148]: Obesity
+              - generic [ref=f17e149]: Type 2 Diabetes Mellitus
+              - generic [ref=f17e150]: Metabolic Syndrome
+              - generic [ref=f17e151]: Genetic Association Studies
+              - generic [ref=f17e152]: Nutrition Transition
+              - generic [ref=f17e153]: Diet Quality
+              - generic [ref=f17e154]: Ultra-processed Foods
+              - generic [ref=f17e155]: Food Insecurity
+              - generic [ref=f17e156]: Lung Function
+              - generic [ref=f17e157]: COPD
+              - generic [ref=f17e158]: Atherosclerosis
+              - generic [ref=f17e159]: Airway Microbiome
+              - generic [ref=f17e160]: Admixed Populations
+              - generic [ref=f17e161]: Public Health
+              - generic [ref=f17e162]: Tropical Medicine
+              - generic [ref=f17e163]: Caribbean
+              - generic [ref=f17e164]: Colombia
+    - generic [ref=f17e166]:
+      - generic [ref=f17e167]:
+        - paragraph [ref=f17e168]: Research
+        - heading "Líneas de investigación principales" [level=2] [ref=f17e169]
+      - generic [ref=f17e170]:
+        - generic [ref=f17e171]:
+          - text: "01"
+          - paragraph [ref=f17e172]: Obesidad, síndrome metabólico y diabetes tipo 2 en poblaciones admixed latinoamericanas
+        - generic [ref=f17e173]:
+          - text: "02"
+          - paragraph [ref=f17e174]: Asociaciones genéticas (CAV1, FTO, IRX3, ADIPOR1, LEP, LEPR y otras) con rasgos cardiometabólicos
+        - generic [ref=f17e175]:
+          - text: "03"
+          - paragraph [ref=f17e176]: Transición nutricional, calidad de la dieta, alimentos ultraprocesados e inseguridad alimentaria
+        - generic [ref=f17e177]:
+          - text: "04"
+          - paragraph [ref=f17e178]: Función pulmonar, EPOC y su relación con dieta y factores cardiometabólicos
+        - generic [ref=f17e179]:
+          - text: "05"
+          - paragraph [ref=f17e180]: Microbioma de la vía aérea y aterosclerosis subclínica
+        - generic [ref=f17e181]:
+          - text: "06"
+          - paragraph [ref=f17e182]: Antropometría y puntos de corte locales para síndrome metabólico
+        - generic [ref=f17e183]:
+          - text: "07"
+          - paragraph [ref=f17e184]: Epidemiología de salud pública en contextos tropicales y comunidades rurales del Caribe colombiano
+        - generic [ref=f17e185]:
+          - text: "08"
+          - paragraph [ref=f17e186]: Ancestría genética y estructura poblacional de Cartagena de Indias
+    - generic [ref=f17e187]:
+      - generic [ref=f17e189]:
+        - paragraph [ref=f17e190]: Publications
+        - heading "Publicaciones seleccionadas" [level=2] [ref=f17e191]
+        - paragraph [ref=f17e192]: Las más relevantes y citadas de ~27 obras reportadas en ORCID.
+      - list [ref=f17e193]:
+        - listitem [ref=f17e194]:
+          - generic [ref=f17e195]: "2026"
+          - generic [ref=f17e196]:
+            - paragraph [ref=f17e197]: Airway microbiome is associated with atherosclerosis in adults from Southern Caribbean.
+            - paragraph [ref=f17e198]: Microorganisms.
+        - listitem [ref=f17e199]:
+          - generic [ref=f17e200]: "2025"
+          - generic [ref=f17e201]:
+            - paragraph [ref=f17e202]: Prevalence of subclinical carotid atherosclerosis — Results from the Cartagena Cohort Study.
+            - paragraph [ref=f17e203]: American Journal of Tropical Medicine and Hygiene.
+        - listitem [ref=f17e204]:
+          - generic [ref=f17e205]: "2022"
+          - generic [ref=f17e206]:
+            - paragraph [ref=f17e207]: Ultra-processed food intake and lung function in US adults.
+            - paragraph [ref=f17e208]: Annals of Epidemiology.
+        - listitem [ref=f17e209]:
+          - generic [ref=f17e210]: "2022"
+          - generic [ref=f17e211]:
+            - paragraph [ref=f17e212]: Interaction analysis of FTO and IRX3 genes with obesity traits.
+            - paragraph [ref=f17e213]: Colombia Médica.
+        - listitem [ref=f17e214]:
+          - generic [ref=f17e215]: "2021"
+          - generic [ref=f17e216]:
+            - paragraph [ref=f17e217]: Household food insecurity, lung function, and COPD in US adults.
+            - paragraph [ref=f17e218]: Nutrients.
+        - listitem [ref=f17e219]:
+          - generic [ref=f17e220]: "2021"
+          - generic [ref=f17e221]:
+            - paragraph [ref=f17e222]: Lung function, COPD and the Alternative Healthy Eating Index in US adults.
+            - paragraph [ref=f17e223]: ERJ Open Research.
+        - listitem [ref=f17e224]:
+          - generic [ref=f17e225]: "2020"
+          - generic [ref=f17e226]:
+            - paragraph [ref=f17e227]: Changes in diet quality over 10 years of nutrition transition in Colombia.
+            - paragraph [ref=f17e228]: International Journal of Public Health.
+        - listitem [ref=f17e229]:
+          - generic [ref=f17e230]: "2018"
+          - generic [ref=f17e231]:
+            - paragraph [ref=f17e232]: CAV1 gene variation, serum triglycerides and the metabolic syndrome.
+            - paragraph [ref=f17e233]: Metabolic Syndrome and Related Disorders.
+        - listitem [ref=f17e234]:
+          - generic [ref=f17e235]: "2017"
+          - generic [ref=f17e236]:
+            - paragraph [ref=f17e237]: Health indicators in two rural communities of the Colombian Caribbean coast.
+            - paragraph [ref=f17e238]: American Journal of Tropical Medicine and Hygiene.
+        - listitem [ref=f17e239]:
+          - generic [ref=f17e240]: "2014"
+          - generic [ref=f17e241]:
+            - paragraph [ref=f17e242]: Anthropometric cut-off points for metabolic syndrome in women from Cartagena.
+            - paragraph [ref=f17e243]: Salud Pública de México.
+        - listitem [ref=f17e244]:
+          - generic [ref=f17e245]: "2012"
+          - generic [ref=f17e246]:
+            - paragraph [ref=f17e247]: Concordance between five definitions of the metabolic syndrome in Cartagena.
+            - paragraph [ref=f17e248]: Revista Española de Salud Pública.
+      - generic [ref=f17e249]:
+        - link "Enviar un manuscrito" [ref=f17e250] [cursor=pointer]:
+          - /url: /submit
+        - link "Explorar artículos" [ref=f17e251] [cursor=pointer]:
+          - /url: /articles
+  - contentinfo [ref=f17e252]:
+    - generic [ref=f17e254]:
+      - paragraph [ref=f17e255]:
+        - emphasis [ref=f17e256]: CARIBE Journal of Biological Sciences
+        - text: ", eISSN 2850-0001, Publicado por CARIBE SCIENCE"
+      - paragraph [ref=f17e257]:
+        - link "RSS" [ref=f17e258] [cursor=pointer]:
+          - /url: /articles
+        - link "Alerta de contenido" [ref=f17e259] [cursor=pointer]:
+          - /url: /search
+    - generic [ref=f17e260]:
+      - generic [ref=f17e261]:
+        - generic [ref=f17e262]:
+          - generic [ref=f17e263]: CARIBE SCIENCE
+          - paragraph [ref=f17e264]: Avanzando el conocimiento científico desde el Caribe hacia el mundo.
+          - generic [ref=f17e265]:
+            - textbox "Mantente al día" [ref=f17e266]:
+              - /placeholder: Tu correo
+            - button "Suscribirse" [ref=f17e267] [cursor=pointer]
+        - navigation "Más información" [ref=f17e268]:
+          - paragraph [ref=f17e269]: Más información
+          - list [ref=f17e270]:
+            - listitem [ref=f17e271]:
+              - link "Acerca del editor" [ref=f17e272] [cursor=pointer]:
+                - /url: /editorial
+            - listitem [ref=f17e273]:
+              - link "Cargos por procesamiento" [ref=f17e274] [cursor=pointer]:
+                - /url: /journals
+            - listitem [ref=f17e275]:
+              - link "Política de acceso abierto" [ref=f17e276] [cursor=pointer]:
+                - /url: /journals
+            - listitem [ref=f17e277]:
+              - link "Contacto" [ref=f17e278] [cursor=pointer]:
+                - /url: mailto:gmorag@unicartagena.edu.co
+            - listitem [ref=f17e279]:
+              - link "Para bibliotecas" [ref=f17e280] [cursor=pointer]:
+                - /url: /journals
+        - navigation "Guías" [ref=f17e281]:
+          - paragraph [ref=f17e282]: Guías
+          - list [ref=f17e283]:
+            - listitem [ref=f17e284]:
+              - link "Para autores" [ref=f17e285] [cursor=pointer]:
+                - /url: /submit
+            - listitem [ref=f17e286]:
+              - link "Para revisores" [ref=f17e287] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f17e288]:
+              - link "Para editores" [ref=f17e289] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f17e290]:
+              - link "Para sociedades" [ref=f17e291] [cursor=pointer]:
+                - /url: /researchers
+            - listitem [ref=f17e292]:
+              - link "Para instituciones" [ref=f17e293] [cursor=pointer]:
+                - /url: /researchers
+        - navigation "Iniciativas CARIBE" [ref=f17e294]:
+          - paragraph [ref=f17e295]: Iniciativas CARIBE
+          - list [ref=f17e296]:
+            - listitem [ref=f17e297]:
+              - link "Revistas" [ref=f17e298] [cursor=pointer]:
+                - /url: /journals
+            - listitem [ref=f17e299]:
+              - link "Datos" [ref=f17e300] [cursor=pointer]:
+                - /url: /datasets
+            - listitem [ref=f17e301]:
+              - link "Protocolos" [ref=f17e302] [cursor=pointer]:
+                - /url: /protocols
+            - listitem [ref=f17e303]:
+              - link "Investigadores" [ref=f17e304] [cursor=pointer]:
+                - /url: /researchers
+            - listitem [ref=f17e305]:
+              - link "Buscar" [ref=f17e306] [cursor=pointer]:
+                - /url: /search
+        - navigation "Participa" [ref=f17e307]:
+          - paragraph [ref=f17e308]: Participa
+          - list [ref=f17e309]:
+            - listitem [ref=f17e310]:
+              - link "Envía un manuscrito" [ref=f17e311] [cursor=pointer]:
+                - /url: /submit
+            - listitem [ref=f17e312]:
+              - link "Revisa artículos" [ref=f17e313] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f17e314]:
+              - link "Propón un dataset" [ref=f17e315] [cursor=pointer]:
+                - /url: /submit
+            - listitem [ref=f17e316]:
+              - link "Únete al registro" [ref=f17e317] [cursor=pointer]:
+                - /url: /register
+      - generic [ref=f17e319]:
+        - paragraph [ref=f17e320]: © 2026 CARIBE SCIENCE · Hecho con rigor científico en el Caribe.
+        - list [ref=f17e321]:
+          - listitem [ref=f17e322]:
+            - link "Aviso legal" [ref=f17e323] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=f17e324]:
+            - link "Aviso legal" [ref=f17e325] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=f17e326]:
+            - link "Términos y condiciones" [ref=f17e327] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=f17e328]:
+            - link "Política de privacidad" [ref=f17e329] [cursor=pointer]:
+              - /url: /privacy
+          - listitem [ref=f17e330]:
+            - link "Accesibilidad" [ref=f17e331] [cursor=pointer]:
+              - /url: /accessibility
+  - alert [ref=f17e332]
