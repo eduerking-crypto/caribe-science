@@ -32,7 +32,7 @@ jobs:
         run: |
           cd apps/backend
           pip install pip-audit
-          pip-audit
+          pip-audit -r requirements.txt
 
   lint-and-test:
     runs-on: ubuntu-latest
